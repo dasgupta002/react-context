@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.root {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 7rem;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+a {
+    color: black;
+    font-size: 1.4rem;
+}
+
+.grid {
+    display: flex;
+    gap: 2rem;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.card span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.card span a {
+    margin-left: 0.5rem;
+}
+
+.container__light {
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+}
+
+.container__dark {
+    width: 100%;
+    height: 100vh;
+    background: #282c34;
+    color: white;
+}
+
+.container__dark button {
+    color: white;
+}
+
+.container__dark .card {
+    border: 1px solid #54b2ce;
+}
+
+.container__dark a {
+    color: white;
+}
